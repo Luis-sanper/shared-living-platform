@@ -1,0 +1,20 @@
+# Project Glossary
+
+- User: Any resgisteres person who uses the platform.
+- Tenant: A user who lives in a shared flat and have acces to it's private place.
+- Landlord: A user responsible for a flat who has limited acces to household management and maintenance features.
+- Flat: A shared living space represented inside the platform.
+- Flat space: The private area of the platforma associated with a specific flat and accesible only to authorized tenants an it's landlord.
+- Household task: A task relates to the organizaiton,cleaning, or maintenance of the shared flat.
+- Teenant-only task: A household task visible only to the tenants of the flat.
+- Landlor-visible task: A household task that can also be viewed by the landlord.
+- Mandatory task: A household task created by the landlord that must be completed by a tenant.
+- Photo evidence: An image uploaded to demostrate that a task has been completed.
+- Task reminder: A reminder associated with a household task to help users to complete it on time.
+- Maintenance issue: A problem related to the condition or functioning of the flat that can be reported and followed through the platform.
+- Shared item: An item or resource belonging to the household that can be used by multiple tenants.
+- Private item: An item registered by a tenant but not considered part of the shared household inventary.
+- Social activity: An activity created by a user that other users of the platform can discover and join.
+- Activity participant: A user who has joined a social activity.
+- Invitation: A request that allows join a specific flat.
+- Household communication: Messages related to the flat that may involve tenants and, when appropriate, the landlord.
