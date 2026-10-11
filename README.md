@@ -4,7 +4,7 @@ Semester project for Software Development Methodologies.
 
 ## Product idea
 
-A platform for people living in shared accommodation to organize household responsibilities and participate in social activities.
+A platform for people living in shared accomodation to organize household responsabilities and participate in social activities.
 
 ## Product goal
 
@@ -27,9 +27,9 @@ Help people living in shared accomodation manage every household responsabilitie
 
 ## Main user journeys
 
-- Flatmate hosehold journey: manage shared responsabilities and household information inside the private flat space.
-- Landlor journey: handle maintenance-relates communication and follow reported issues.
-- Social journey: discover, create ando join activities.
+- Flatmate household journey: manage shared responsibilities and household information inside the private flat space.
+- Landlord journey: handle maintenance-related communication and follow reported issues.
+- Social journey: discover, create and join activities.
 
 ## Initial risk
 
@@ -44,3 +44,15 @@ Help people living in shared accomodation manage every household responsabilitie
 - Real-time maps
 - AI recommendations
 - Advanced social-network features
+
+## Project documentation
+
+More datailed project documentation is available in the docs folder, including:
+
+- Project assumptions.
+- Features by user role.
+- Initial product backlog.
+- Development workflow.
+- Project glossary.
+- Definition of DONE.
+- Initial architecture sketch.
