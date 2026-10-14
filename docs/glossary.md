@@ -3,7 +3,8 @@
 - User: Any resgisteres person who uses the platform.
 - Tenant: A user who lives in a shared flat and have acces to it's private place.
 - Landlord: A user responsible for a flat who has limited acces to household management and maintenance features.
-- Flat: A shared living space represented inside the platform.
+- Flat: A shared living space represented inside the platform that contains one or more rooms.
+- Room: A private room inside a flat that can be assigned to one tenant at a time.
 - Flat space: The private area of the platforma associated with a specific flat and accesible only to authorized tenants an it's landlord.
 - Household task: A task relates to the organizaiton,cleaning, or maintenance of the shared flat.
 - Teenant-only task: A household task visible only to the tenants of the flat.
@@ -16,5 +17,5 @@
 - Private item: An item registered by a tenant but not considered part of the shared household inventary.
 - Social activity: An activity created by a user that other users of the platform can discover and join.
 - Activity participant: A user who has joined a social activity.
-- Invitation: A request that allows join a specific flat.
+- Invitation: A request sent by a landlord that allows a tenant to join a specific flat and be assigned to a specific room.
 - Household communication: Messages related to the flat that may involve tenants and, when appropriate, the landlord.
