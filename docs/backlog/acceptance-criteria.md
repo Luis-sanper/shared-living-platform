@@ -74,7 +74,25 @@
 - A user cannot complete a task assigned to another tenant.
 
 ### Report maintenance issues
+
+- A tenant can report a maintenance issue related to their flat.
+- A maintenance issue must include at least a title and a description.
+- A reported issue is visible to all tenants of the same flat and to the landlord.
+- Tenants can add additional details or updates to an existing maintenance issue.
+- The original issue description is preserved after additional updates are added.
+- The landlord can add updates to the maintenance issue.
+- Users from another flat cannot view or modify the issue.
+
 ### View maintenance issue status
+
+- Tenants and the landlord can view the current status of maintenance issues related to their flat.
+- A maintenance issue can have the statuses Open, In progress, or Resolved.
+- Only the landlord can change the status of a maintenance issue.
+- The landlord can add status-related updates, such as technician visits, repair results, or replacement plans.
+- All authorized users can view the chronological history of updates related to the issue.
+- When the landlord changes the status, the new status is stored and immediately visible to authorized users.
+- Users from another flat cannot view the status or history of the issue.
+- When an issue is resolved, the landlord can close it and it remains available in the maintenance history.
 
 ## Medium priority
 
