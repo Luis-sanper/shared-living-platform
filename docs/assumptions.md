@@ -12,11 +12,13 @@
 ## Flats and access
 
 - Each flat will have a private space for its tenants and, when applicable, its landlord.
+- Each flat will contain one or more rooms.
+- Each room can be assigned to only one tenan at a time in the first version.
 - Each user will have access to only one flat in the first version of the system.
 - Each landlord will have access to only one flat in the first version.
-- Only landlords can create flats in the first version.
-- Tenants join a flat through an invitation.
-- Users can leave a flat or be removed from it. Accepting a new invitation will move them to another flat.
+- Only landlords can create flats and define rooms in the first version.
+- Tenants join a flat through an invitation to an specific available room.
+- Users can leave a flat or be removed from it. Accepting a new invitation will move them to another flat after confirmation.
 
 ## Platform and technical assumptions
 
