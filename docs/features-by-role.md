@@ -4,9 +4,10 @@
 
 ### Flat management
 - Create flats
-- Invite tenants
+- Create and manage rooms inside a flat
+- Invite tenants to specific available rooms
 - Remove tenants from the flat
-- View the list of tenants in the flat
+- View the list of tenants in the flat and their rooms
 
 ### Household tasks
 - Create mandatory household tasks
@@ -28,8 +29,10 @@
 
 ### Flat access
 - Accept flat invitations
+- View the flat and room information before accepting and invitation
 - Leave the flat
 - View basic flat information
+- View the assigned room
 
 ### Household tasks
 - Create and complete tenant-only or landlord-visible household tasks
