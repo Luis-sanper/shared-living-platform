@@ -7,8 +7,9 @@
 - Invite and assign tenants to rooms
 - Join a flat through an invitation
 - View flat and assigned room information
-- Create and complete household tasks
-- Assign tasks to tenants
+- Create household tasks
+- Assign household tasks to tenants
+- Complete assigned household tasks
 - Report maintenance issues
 - View maintenance issue status
 
