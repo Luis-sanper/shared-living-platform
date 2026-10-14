@@ -3,8 +3,10 @@
 ## High priority
 
 - User registration and login
-- Create and join a flat
-- View flat information
+- Create a flat and manage its rooms
+- Invite and assign tenants to rooms
+- Join a flat through an invitation
+- View flat and assigned room information
 - Create and complete household tasks
 - Assign tasks to tenants
 - Report maintenance issues
