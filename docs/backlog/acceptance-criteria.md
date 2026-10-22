@@ -11,10 +11,10 @@
 - After registration, the user selects their role and is redirected to the appropriate dashboard.
 - On subsequent logins, the user is automatically redirected to the dashboard associated with their role.
 
-### Create a flat and manage it rooms
+### Create a flat and manage its rooms
 
 - A landlord can create a flat by providing the required information.
-- A landlord can create and define the rooms available in the flat.
+- A landlord can create and define the rooms within the flat.
 - A room can be assigned to only one tenant at a time.
 
 ### Invite and assign tenants to rooms
@@ -30,13 +30,13 @@
 - A tenant can belong to only one flat at a time.
 - If a tenant accepts an invitation while already belonging to another flat, the system must ask for confirmation before removing them from the current flat and joining the new one.
 
-### View flat information
+### View flat and assigned room information
 
-- An authorized tenant can view the basic information of the flat the courrently belong to.
-- An autorized tenant can view the room assigned to them.
-- A landlord can view basic information of their flat an the rooms defined within it.
+- An authorized tenant can view the basic information of the flat they currently belong to.
+- An authorized tenant can view the room assigned to them.
+- A landlord can view basic information about their flat and the rooms defined within it.
 - A landlord can view which tenant is assigned to each room.
-- A user cannot access the private information of a flat the do not belong to or manage.
+- A user cannot access the private information of a flat they do not belong to or manage.
 
 ### Create household tasks
 
@@ -60,7 +60,6 @@
 - The creator and the assigned tenant must always be able to view the task. The creator may also make it visible to selected tenants, all tenants in the flat, and, when selected, to the landlord.
 - The system stores both the tenant assigned to the task and the users who are allowed to view it.
 - The creator can remove or change the tenant assigned to a task.
-- A task can be reassigned later to another tenant belonging to the same flat.
 - After assignment, the task becomes visible to the creator, the assigned tenant, and any additional users included in its visibility settings.
 - If the assigned tenant leaves the flat, the task is no longer assigned to them.
 - An assigned tenant can leave a non-mandatory task, causing it to become unassigned.
@@ -98,7 +97,7 @@
 
 ## Medium priority
 
-### Manage shared and private household items
+### Manage shared and private household storage
 
 - Each tenant has access to two default storage spaces: shared storage and private storage.
 - Shared storage is visible and manageable by all tenants belonging to the same flat.
@@ -134,12 +133,42 @@
 - Once the task is completed, pending reminders for that task are cancelled.
 
 ### Send messages between tenants and landlord
-### View task history
+
+- A tenant can send a private message to the landlord of their flat.
+- The landlord can send a private message to a specific tenant in their flat.
+- A tenant can send a message to the shared flat-landlord conversation.
+- The landlord can send a message to the shared flat-landlord conversation.
+- Messages in the shared conversation are visible to all tenants of the flat and the landlord.
+- Private messages are visible only to the tenant involved and the landlord.
+- Messages are stored and displayed in chronological order.
+- Users cannot access conversations belonging to another flat.
 
 ## Low priority
 
 ### Create social activities
+
+- A user can create a public social activity.
+- A social activity must include at least a title, description, location, date, and time.
+- The activity location must include multiple location keywords, such as city, district, or venue, to support location-based searches.
+- The creator can optionally add a WhatsApp group link to the activity.
+- After creation, the activity is visible to other users of the platform.
+- The creator can edit the information of their own activity.
+- The creator can cancel their own activity.
+- Users cannot edit or cancel activities created by other users.
+
 ### Join social activities
+
+- A user can view the information of published social activities.
+- A user can join a social activity.
+- When a user joins an activity, the participant counter is updated.
+- A user who has joined an activity can leave it later.
+- When a user leaves an activity, the participant counter is updated.
+- If the activity includes a WhatsApp group link, joined users can access it.
+- A user cannot join the same activity more than once.
+
 ### Activity location filters
-### Advanced messaging features
-Additional search and filtering options
+
+- A user can search social activities by entering a location keyword.
+- Activities whose location contains the searched keyword are displayed.
+- The location search is not case-sensitive.
+- If no activities match the searched location, the system displays an empty result.
