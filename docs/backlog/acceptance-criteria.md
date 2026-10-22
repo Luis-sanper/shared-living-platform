@@ -41,7 +41,9 @@
 ### Create household tasks
 
 - An authorized tenant can create a household task inside their flat.
+- A household task can include a due date and time.
 - A landlord can create a mandatory household task for their flat.
+- A mandatory task created by the landlord must include a due date and time.
 - A household task must include at least a title and a description.
 - A newly created household task is initially visible only to its creator.
 - A created task is stored by the system and belongs to the flat where it was created.
@@ -96,9 +98,41 @@
 
 ## Medium priority
 
-### Manage shared household items
+### Manage shared and private household items
+
+- Each tenant has access to two default storage spaces: shared storage and private storage.
+- Shared storage is visible and manageable by all tenants belonging to the same flat.
+- Private storage is visible and manageable only by its owner.
+- Tenants can create folders inside both shared and private storage.
+- Tenants can add items inside storage folders.
+- Each item must include at least a name and quantity.
+- An item can include an optional description.
+- Tenants can increase or decrease the quantity of an existing item.
+- Item quantity cannot be lower than zero.
+- An item remains stored when its quantity reaches zero unless it is manually removed.
+- Tenants can edit or remove items they are allowed to manage.
+- Users who do not belong to the flat cannot access its shared storage.
+- The landlord cannot access tenant household storage.
+
 ### Upload photo evidence for tasks
+
+- Only mandatory tasks can require photo evidence.
+- The landlord can decide whether photo evidence is required for a mandatory task.
+- Only the tenant assigned to the task can upload the photo evidence.
+- If photo evidence is required, the task cannot be marked as completed until the evidence has been uploaded.
+- The uploaded photo is associated with the corresponding task.
+- Photo evidence is visible only to the landlord.
+
 ### Create task reminders
+
+- Mandatory tasks automatically generate reminders for the assigned tenant.
+- Automatic reminders are sent 24 hours before the task due time.
+- A tenant can create an optional reminder for a non-mandatory task assigned to them.
+- A reminder can only be created for a task that has a due date and time.
+- Reminders are sent only to the tenant assigned to the task.
+- A reminder notifies the tenant about the pending task but does not change the task status.
+- Once the task is completed, pending reminders for that task are cancelled.
+
 ### Send messages between tenants and landlord
 ### View task history
 
