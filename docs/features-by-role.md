@@ -45,7 +45,9 @@
 ### Household items
 - Manage shared and private household storage
 - View shared household items
+- View personal private items
 - Add, edit, or remove shared household items
+- Add, edit, or remove personal private items
 
 ### Maintenance
 - Report maintenance issues
