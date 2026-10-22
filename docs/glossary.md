@@ -7,14 +7,14 @@
 - Room: A private room inside a flat that can be assigned to one tenant at a time.
 - Flat space: The private area of the platforma associated with a specific flat and accesible only to authorized tenants an it's landlord.
 - Household task: A task relates to the organizaiton,cleaning, or maintenance of the shared flat.
-- Teenant-only task: A household task visible only to the tenants of the flat.
-- Landlor-visible task: A household task that can also be viewed by the landlord.
+- Task visibility: The set of users who are allowed to view a household task. The creator and the assigned tenant can always view the task, while additional tenants or the landlord may also be granted access.
 - Mandatory task: A household task created by the landlord that must be completed by a tenant.
 - Photo evidence: An image uploaded to demostrate that a task has been completed.
 - Task reminder: A reminder associated with a household task to help users to complete it on time.
 - Maintenance issue: A problem related to the condition or functioning of the flat that can be reported and followed through the platform.
-- Shared item: An item or resource belonging to the household that can be used by multiple tenants.
-- Private item: An item registered by a tenant but not considered part of the shared household inventary.
+- Household storage: The inventory system used to manage shared household items and each tenant's private items.
+- Shared item: An item stored in the shared household storage and visible to the tenants of the flat.
+- Private item: An item stored in a tenant's private storage and visible only to that tenant.
 - Social activity: An activity created by a user that other users of the platform can discover and join.
 - Activity participant: A user who has joined a social activity.
 - Invitation: A request sent by a landlord that allows a tenant to join a specific flat and be assigned to a specific room.
