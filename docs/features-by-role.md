@@ -13,7 +13,7 @@
 - Create mandatory household tasks
 - Create reminders for tasks
 - Require photo evidence for specific tasks
-- View landlord-visible household tasks
+- View household tasks when included in their visibility settings
 - View the completion status of mandatory tasks
 
 ### Maintenance
@@ -35,10 +35,11 @@
 - View the assigned room
 
 ### Household tasks
-- Create and complete tenant-only or landlord-visible household tasks
+- Create household tasks and define their visibility settings
+- Assign household tasks to themselves or other tenants in the same flat
 - View assigned household tasks
 - View task history
-- Complete mandatory household tasks
+- Complete household tasks assigned to them
 - Upload photo evidence when required
 - Create or receive task reminders
 
