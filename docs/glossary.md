@@ -11,6 +11,7 @@
 - Mandatory task: A household task created by the landlord that must be completed by a tenant.
 - Photo evidence: An image uploaded to demostrate that a task has been completed.
 - Task reminder: A reminder associated with a household task to help users to complete it on time.
+- Due date: The date and time by which a household task should be completed.
 - Maintenance issue: A problem related to the condition or functioning of the flat that can be reported and followed through the platform.
 - Household storage: The inventory system used to manage shared household items and each tenant's private items.
 - Shared item: An item stored in the shared household storage and visible to the tenants of the flat.
