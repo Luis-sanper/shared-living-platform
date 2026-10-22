@@ -31,3 +31,7 @@ Smaller changes will be reflected through commits and updates to the relevant do
 ## Managing complex tasks
 
 Large or complex tasks will be divided into smaller and more manageable pieces whenever possible. These tasks must remain appropriate to the scope of the project and the capabilities and resources available for its development.
+
+## Work in progress limit
+
+Whenever possible, only one task will be kept in progress at a time. Closely related tasks may be worked on simultaneously when separating them would make the development process less efficient.
