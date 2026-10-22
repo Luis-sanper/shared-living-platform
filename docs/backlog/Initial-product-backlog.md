@@ -15,7 +15,7 @@
 
 ## Medium priority
 
-- Manage household items
+- Manage shared and private household items
 - Upload photo evidence for tasks
 - Create task reminders
 - Send messages between tenants and landlord
