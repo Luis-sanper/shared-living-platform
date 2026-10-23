@@ -14,7 +14,7 @@ Help people living in shared accommodation manage household responsibilities and
 
 - People living in shared flats.
 - Students and international students.
-- Landlords or property managers with limited access.
+- Landlords or property managers.
 
 ## Main features
 
