@@ -2,7 +2,7 @@
 
 ## Users and roles
 
-- Each user will have their own account, identified by their name and role.
+- Each user will have their own account with a unique email address and an assigned role.
 - Each user has only one role.
 - People who live in a shared house are referred to as tenants in the system.
 - Landlords will have access only to specific sections of the platform related to their role.
