@@ -1,15 +1,15 @@
 # Project Glossary
 
-- User: Any resgisteres person who uses the platform.
-- Tenant: A user who lives in a shared flat and have acces to it's private place.
-- Landlord: A user responsible for a flat who has limited acces to household management and maintenance features.
+- User: Any registered person who uses the platform.
+- Tenant: A user who lives in a shared flat and have access to it's private space.
+- Landlord: A user responsible for a flat who has limited access to household management and maintenance features.
 - Flat: A shared living space represented inside the platform that contains one or more rooms.
 - Room: A private room inside a flat that can be assigned to one tenant at a time.
-- Flat space: The private area of the platforma associated with a specific flat and accesible only to authorized tenants an it's landlord.
-- Household task: A task relates to the organizaiton,cleaning, or maintenance of the shared flat.
+- Flat space: The private area of the platform associated with a specific flat and accessible only to authorized tenants an its landlord.
+- Household task: A task relates to the organization,cleaning, or maintenance of the shared flat.
 - Task visibility: The set of users who are allowed to view a household task. The creator and the assigned tenant can always view the task, while additional tenants or the landlord may also be granted access.
 - Mandatory task: A household task created by the landlord that must be completed by a tenant.
-- Photo evidence: An image uploaded to demostrate that a task has been completed.
+- Photo evidence: An image uploaded to demonstrate that a task has been completed.
 - Task reminder: A reminder associated with a household task to help users to complete it on time.
 - Due date: The date and time by which a household task should be completed.
 - Maintenance issue: A problem related to the condition or functioning of the flat that can be reported and followed through the platform.
