@@ -30,7 +30,7 @@
 
 ## Social space
 
-- Social activities will be visible to all users, with filters by city and country.
+- Social activities will be visible to all users and can be searched using location keywords.
 
 ## Usability
 
