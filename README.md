@@ -20,7 +20,7 @@ Help people living in shared accommodation manage household responsibilities and
 
 - Manage flats and room assignments.
 - Create, assign, and complete household tasks.
-- Communicate between flatmates.
+- Communicate between tenants and the landlord.
 - Upload evidence of completed tasks.
 - Manage shared household items.
 - Report and track maintenance issues.
