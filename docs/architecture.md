@@ -55,7 +55,6 @@
        │    ├─ Household items
        │    │    ├─ Shared items
        │    │    └─ Private items
-       │    ├─ Household messages 
        │    └─ Private only information
        │
        ├─ Landlord communication
@@ -68,10 +67,10 @@
        └─ Social space
             ├─ Activities
             │    ├─ Join activities
-            │    └─ Leave activies
+            │    └─ Leave activities
             └─ Create activity
 
-## Landloard dashboard
+## Landlord dashboard
 
     Landlord dashboard
        ├─ Flat overview
