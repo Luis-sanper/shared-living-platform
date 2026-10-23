@@ -19,12 +19,9 @@
 - Upload photo evidence for tasks
 - Create task reminders
 - Send messages between tenants and landlord
-- View task history
 
 ## Low priority
 
 - Create social activities
 - Join social activities
 - Activity location filters
-- Advanced messaging features
-- Additional search and filtering options
