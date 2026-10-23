@@ -62,5 +62,5 @@
 - View participants in an activity
 
 ### Communication
-- Send messages to flatmates
+- Send messages in the shared flat-landlord conversation
 - Send messages to the landlord
