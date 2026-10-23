@@ -33,7 +33,7 @@
 - **Landlord UI:** provides access to landlord-specific features such as mandatory tasks, maintenance issues, tenant communication, and flat supervision.
 - **REST API:** receives requests from both interfaces and sends them to the backend.
 - **Business Logic:** applies system rules, permissions, validations, and processes user actions.
-- **Database:** stores persistent information such as users, flats, tasks, issues, activities, messages, and shared items.
+- **Database:** stores persistent information such as users, flats, rooms, invitations, tasks, storage items, maintenance issues, messages and social activities.
 
 ## Basic login
 
