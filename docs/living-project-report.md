@@ -205,3 +205,54 @@ The project has:
 Sprint 1 will move from project preparation into implementation.
 
 Development will begin with high-priority functionality, using the acceptance criteria and documentation created during Sprint 0 as a reference.
+
+---
+
+## 10. Sprint 1 Implementation
+
+Sprint 1 focused on creating the first working vertical slice of the Shared Living Platform.
+
+The Sprint Goal was to allow household tasks to be created and viewed through a simple user interface connected to the backend.
+
+During the sprint, the following technical elements were implemented:
+
+- Spring Web support was added to the backend.
+- A basic household task domain model was created.
+- Basic task business logic was implemented.
+- Temporary in-memory storage was added.
+- REST endpoints were created for creating and retrieving tasks.
+- Automated tests were added for the task service.
+- A simple web interface was created.
+- The interface was connected to the REST API.
+
+The resulting flow is:
+
+**Web interface → REST API → business logic → temporary storage → REST API → web interface**
+
+The implementation was reviewed through Pull Request #47 and successfully passed the existing GitHub Actions Continuous Integration workflow before being merged into `main`.
+
+The current implementation represents only the first part of the household task functionality. The complete Product Backlog item is not yet finished because several acceptance criteria still depend on future functionality such as users, flats, permissions, due dates and task visibility.
+
+A more detailed Sprint 1 review and retrospective is available at:
+
+[Sprint 1 Review and Retrospective](Sprint1-review-retrospective.md)
+
+---
+
+## 11. Current Status and Next Sprint
+
+At the end of Sprint 1, the project now has both the technical foundation created during Sprint 0 and its first working product functionality.
+
+The application can currently create basic household tasks using a web interface, send them to the backend, store them temporarily and retrieve them for display.
+
+The project is still in an early implementation stage. The next sprints will progressively extend the existing architecture instead of creating a new structure from scratch.
+
+Future development will focus on completing more of the high-priority backlog, including:
+
+- More complete household task functionality.
+- Users and roles.
+- Flat membership and permissions.
+- Task assignment and completion.
+- Persistent storage.
+
+The updated Product Backlog and the lessons from Sprint 1 will be used to plan Sprint 2.
