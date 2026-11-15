@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shared Living Platform</title>
+</head>
+
+<body>
+
+<h1>Household Tasks</h1>
+
+<form id="taskForm">
+    <input type="text" id="title" placeholder="Task title">
+    <input type="text" id="description" placeholder="Task description">
+    <button type="submit">Create task</button>
+</form>
+
+<h2>Tasks</h2>
+
+<ul id="taskList"></ul>
+
+<script>
+    // Get the form and the task list from the HTML
+    const form = document.getElementById("taskForm");
+    const taskList = document.getElementById("taskList");
+
+    // This code runs when the user submits the form
+    form.addEventListener("submit", async function(event) {
+
+        // Prevent the page from reloading
+        event.preventDefault();
+
+        // Read the values written by the user
+        const title = document.getElementById("title").value;
+        const description = document.getElementById("description").value;
+
+        // Send the new task to the backend using POST /tasks
+        await fetch("/tasks", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                title: title,
+                description: description
+            })
+        });
+
+        // Clear the form after creating the task
+        form.reset();
+
+        // Reload the task list to show the new task
+        loadTasks();
+    });
+
+    // Function that gets all tasks from the backend
+    async function loadTasks() {
+
+        // Ask the backend for all tasks using GET /tasks
+        const response = await fetch("/tasks");
+
+        // Convert the JSON response into JavaScript objects
+        const tasks = await response.json();
+
+        // Clear the current list before showing the updated one
+        taskList.innerHTML = "";
+
+        // Go through every task received from the backend
+        tasks.forEach(function(task) {
+
+            // Create a new <li> element
+            const item = document.createElement("li");
+
+            // Put the task title and description inside the <li>
+            item.textContent = task.title + " - " + task.description;
+
+            // Add the <li> to the task list
+            taskList.appendChild(item);
+        });
+    }
+
+    // Load the tasks when the page opens
+    loadTasks();
+
+</script>
+
+</body>
+</html>
