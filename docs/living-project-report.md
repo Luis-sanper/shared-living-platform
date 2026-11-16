@@ -235,7 +235,7 @@ The current implementation represents only the first part of the household task 
 
 A more detailed Sprint 1 review and retrospective is available at:
 
-[Sprint 1 Review and Retrospective](Sprint1-review-retrospective.md)
+[Sprint 1 Review and Retrospective](Sprint1-review-and-retrospective.md)
 
 ---
 
