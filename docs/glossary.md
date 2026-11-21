@@ -1,12 +1,12 @@
 # Project Glossary
 
 - User: Any registered person who uses the platform.
-- Tenant: A user who lives in a shared flat and have access to it's private space.
+- Tenant: A user who lives in a shared flat and has access to it's private space.
 - Landlord: A user responsible for a flat who has limited access to household management and maintenance features.
 - Flat: A shared living space represented inside the platform that contains one or more rooms.
 - Room: A private room inside a flat that can be assigned to one tenant at a time.
-- Flat space: The private area of the platform associated with a specific flat and accessible only to authorized tenants an its landlord.
-- Household task: A task relates to the organization,cleaning, or maintenance of the shared flat.
+- Flat space: The private area of the platform associated with a specific flat and accessible only to authorized tenants and its landlord.
+- Household task: A task related to the organization,cleaning, or maintenance of the shared flat.
 - Task visibility: The set of users who are allowed to view a household task. The creator and the assigned tenant can always view the task, while additional tenants or the landlord may also be granted access.
 - Mandatory task: A household task created by the landlord that must be completed by a tenant.
 - Photo evidence: An image uploaded to demonstrate that a task has been completed.
@@ -20,3 +20,7 @@
 - Activity participant: A user who has joined a social activity.
 - Invitation: A request sent by a landlord that allows a tenant to join a specific flat and be assigned to a specific room.
 - Household communication: Messages related to the flat that may involve tenants and, when appropriate, the landlord.
+- Role: The type of access and responsibilities assigned to a user, currently Tenant or Landlord.
+- Flat membership: The relationship that associates a tenant with a specific flat.
+- Task creator: The user who creates a household task.
+- Assigned tenant: The tenant responsible for completing a household task.
