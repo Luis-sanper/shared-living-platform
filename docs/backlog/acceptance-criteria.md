@@ -4,171 +4,171 @@
 
 ### User registration and login
 
-- A user can create an account by providing the required information.
-- The system rejects registration if the email address is already in use.
-- A registered user can log in using valid credentials.
-- Invalid credentials are rejected.
-- After registration, the user selects their role and is redirected to the appropriate dashboard.
-- On subsequent logins, the user is automatically redirected to the dashboard associated with their role.
+- [ ] A user can create an account by providing the required information.
+- [ ] The system rejects registration if the email address is already in use.
+- [ ] A registered user can log in using valid credentials.
+- [ ] Invalid credentials are rejected.
+- [ ] After registration, the user selects their role and is redirected to the appropriate dashboard.
+- [ ] On subsequent logins, the user is automatically redirected to the dashboard associated with their role.
 
 ### Create a flat and manage its rooms
 
-- A landlord can create a flat by providing the required information.
-- A landlord can create and define the rooms within the flat.
-- A room can be assigned to only one tenant at a time.
+- [ ] A landlord can create a flat by providing the required information.
+- [ ] A landlord can create and define the rooms within the flat.
+- [ ] A room can be assigned to only one tenant at a time.
 
 ### Invite and assign tenants to rooms
 
-- A landlord can invite a tenant to a specific available room.
-- A tenant cannot accept an invitation to a room that is no longer available.
-- The system records which flat and room is assigned to each tenant.
+- [ ] A landlord can invite a tenant to a specific available room.
+- [ ] A tenant cannot accept an invitation to a room that is no longer available.
+- [ ] The system records which flat and room is assigned to each tenant.
 
 ### Join a flat through an invitation
 
-- Before accepting an invitation, the tenant can view the relevant flat information and the room assigned to them.
-- A tenant can accept or reject a flat invitation.
-- A tenant can belong to only one flat at a time.
-- If a tenant accepts an invitation while already belonging to another flat, the system must ask for confirmation before removing them from the current flat and joining the new one.
+- [ ] Before accepting an invitation, the tenant can view the relevant flat information and the room assigned to them.
+- [ ] A tenant can accept or reject a flat invitation.
+- [ ] A tenant can belong to only one flat at a time.
+- [ ] If a tenant accepts an invitation while already belonging to another flat, the system must ask for confirmation before removing them from the current flat and joining the new one.
 
 ### View flat and assigned room information
 
-- An authorized tenant can view the basic information of the flat they currently belong to.
-- An authorized tenant can view the room assigned to them.
-- A landlord can view basic information about their flat and the rooms defined within it.
-- A landlord can view which tenant is assigned to each room.
-- A user cannot access the private information of a flat they do not belong to or manage.
+- [ ] An authorized tenant can view the basic information of the flat they currently belong to.
+- [ ] An authorized tenant can view the room assigned to them.
+- [ ] A landlord can view basic information about their flat and the rooms defined within it.
+- [ ] A landlord can view which tenant is assigned to each room.
+- [ ] A user cannot access the private information of a flat they do not belong to or manage.
 
 ### Create household tasks
 
-- An authorized tenant can create a household task inside their flat.
-- A household task can include a due date and time.
-- A landlord can create a mandatory household task for their flat.
-- A mandatory task created by the landlord must include a due date and time.
-- A household task must include at least a title and a description.
-- A newly created household task is initially visible only to its creator.
-- A created task is stored by the system and belongs to the flat where it was created.
-- A user cannot create a household task for a flat they do not belong to or manage.
+- [ ] An authorized tenant can create a household task inside their flat.
+- [ ] A household task can include a due date and time.
+- [ ] A landlord can create a mandatory household task for their flat.
+- [ ] A mandatory task created by the landlord must include a due date and time.
+- [ ] A household task must include at least a title and a description.
+- [ ] A newly created household task is initially visible only to its creator.
+- [ ] A created task is stored by the system and belongs to the flat where it was created.
+- [ ] A user cannot create a household task for a flat they do not belong to or manage.
 
 ### Assign household tasks to tenants
 
-- A household task can be assigned only after it has been created.
-- A tenant can assign a task to themselves or to another tenant belonging to the same flat.
-- A landlord can assign a mandatory household task to a tenant belonging to their flat.
-- A task cannot be assigned to a tenant who does not belong to the same flat.
-- When assigning a task, the creator can define which additional users are allowed to view it.
-- The creator can add or remove additional viewers after the task has been assigned.
-- The creator and the assigned tenant must always be able to view the task. The creator may also make it visible to selected tenants, all tenants in the flat, and, when selected, to the landlord.
-- The system stores both the tenant assigned to the task and the users who are allowed to view it.
-- The creator can remove or change the tenant assigned to a task.
-- After assignment, the task becomes visible to the creator, the assigned tenant, and any additional users included in its visibility settings.
-- If the assigned tenant leaves the flat, the task is no longer assigned to them.
-- An assigned tenant can leave a non-mandatory task, causing it to become unassigned.
-- An assigned tenant cannot leave a mandatory task created by the landlord.
+- [ ] A household task can be assigned only after it has been created.
+- [ ] A tenant can assign a task to themselves or to another tenant belonging to the same flat.
+- [ ] A landlord can assign a mandatory household task to a tenant belonging to their flat.
+- [ ] A task cannot be assigned to a tenant who does not belong to the same flat.
+- [ ] When assigning a task, the creator can define which additional users are allowed to view it.
+- [ ] The creator can add or remove additional viewers after the task has been assigned.
+- [ ] The creator and the assigned tenant must always be able to view the task. The creator may also make it visible to selected tenants, all tenants in the flat, and, when selected, to the landlord.
+- [ ] The system stores both the tenant assigned to the task and the users who are allowed to view it.
+- [ ] The creator can remove or change the tenant assigned to a task.
+- [ ] After assignment, the task becomes visible to the creator, the assigned tenant, and any additional users included in its visibility settings.
+- [ ] If the assigned tenant leaves the flat, the task is no longer assigned to them.
+- [ ] An assigned tenant can leave a non-mandatory task, causing it to become unassigned.
+- [ ] An assigned tenant cannot leave a mandatory task created by the landlord.
   
 ### Complete assigned household tasks
 
-- A household task must be assigned to a tenant before it can be completed.
-- Only the tenant assigned to a task can mark it as completed.
-- The assigned tenant can view the information required to complete the task.
-- When a task is completed, the system updates and stores its completion status.
-- The updated completion status is visible to users who are authorized to view the task.
-- A user cannot complete a task assigned to another tenant.
+- [ ] A household task must be assigned to a tenant before it can be completed.
+- [ ] Only the tenant assigned to a task can mark it as completed.
+- [ ] The assigned tenant can view the information required to complete the task.
+- [ ] When a task is completed, the system updates and stores its completion status.
+- [ ] The updated completion status is visible to users who are authorized to view the task.
+- [ ] A user cannot complete a task assigned to another tenant.
 
 ### Report maintenance issues
 
-- A tenant can report a maintenance issue related to their flat.
-- A maintenance issue must include at least a title and a description.
-- A reported issue is visible to all tenants of the same flat and to the landlord.
-- Tenants can add additional details or updates to an existing maintenance issue.
-- The original issue description is preserved after additional updates are added.
-- The landlord can add updates to the maintenance issue.
-- Users from another flat cannot view or modify the issue.
+- [ ] A tenant can report a maintenance issue related to their flat.
+- [ ] A maintenance issue must include at least a title and a description.
+- [ ] A reported issue is visible to all tenants of the same flat and to the landlord.
+- [ ] Tenants can add additional details or updates to an existing maintenance issue.
+- [ ] The original issue description is preserved after additional updates are added.
+- [ ] The landlord can add updates to the maintenance issue.
+- [ ] Users from another flat cannot view or modify the issue.
 
 ### View maintenance issue status
 
-- Tenants and the landlord can view the current status of maintenance issues related to their flat.
-- A maintenance issue can have the statuses Open, In progress, or Resolved.
-- Only the landlord can change the status of a maintenance issue.
-- The landlord can add status-related updates, such as technician visits, repair results, or replacement plans.
-- All authorized users can view the chronological history of updates related to the issue.
-- When the landlord changes the status, the new status is stored and immediately visible to authorized users.
-- Users from another flat cannot view the status or history of the issue.
-- When an issue is resolved, the landlord can close it and it remains available in the maintenance history.
+- [ ] Tenants and the landlord can view the current status of maintenance issues related to their flat.
+- [ ] A maintenance issue can have the statuses Open, In progress, or Resolved.
+- [ ] Only the landlord can change the status of a maintenance issue.
+- [ ] The landlord can add status-related updates, such as technician visits, repair results, or replacement plans.
+- [ ] All authorized users can view the chronological history of updates related to the issue.
+- [ ] When the landlord changes the status, the new status is stored and immediately visible to authorized users.
+- [ ] Users from another flat cannot view the status or history of the issue.
+- [ ] When an issue is resolved, the landlord can close it and it remains available in the maintenance history.
 
 ## Medium priority
 
 ### Manage shared and private household storage
 
-- Each tenant has access to two default storage spaces: shared storage and private storage.
-- Shared storage is visible and manageable by all tenants belonging to the same flat.
-- Private storage is visible and manageable only by its owner.
-- Tenants can create folders inside both shared and private storage.
-- Tenants can add items inside storage folders.
-- Each item must include at least a name and quantity.
-- An item can include an optional description.
-- Tenants can increase or decrease the quantity of an existing item.
-- Item quantity cannot be lower than zero.
-- An item remains stored when its quantity reaches zero unless it is manually removed.
-- Tenants can edit or remove items they are allowed to manage.
-- Users who do not belong to the flat cannot access its shared storage.
-- The landlord cannot access tenant household storage.
+- [ ] Each tenant has access to two default storage spaces: shared storage and private storage.
+- [ ] Shared storage is visible and manageable by all tenants belonging to the same flat.
+- [ ] Private storage is visible and manageable only by its owner.
+- [ ] Tenants can create folders inside both shared and private storage.
+- [ ] Tenants can add items inside storage folders.
+- [ ] Each item must include at least a name and quantity.
+- [ ] An item can include an optional description.
+- [ ] Tenants can increase or decrease the quantity of an existing item.
+- [ ] Item quantity cannot be lower than zero.
+- [ ] An item remains stored when its quantity reaches zero unless it is manually removed.
+- [ ] Tenants can edit or remove items they are allowed to manage.
+- [ ] Users who do not belong to the flat cannot access its shared storage.
+- [ ] The landlord cannot access tenant household storage.
 
 ### Upload photo evidence for tasks
 
-- Only mandatory tasks can require photo evidence.
-- The landlord can decide whether photo evidence is required for a mandatory task.
-- Only the tenant assigned to the task can upload the photo evidence.
-- If photo evidence is required, the task cannot be marked as completed until the evidence has been uploaded.
-- The uploaded photo is associated with the corresponding task.
-- Photo evidence is visible only to the landlord.
+- [ ] Only mandatory tasks can require photo evidence.
+- [ ] The landlord can decide whether photo evidence is required for a mandatory task.
+- [ ] Only the tenant assigned to the task can upload the photo evidence.
+- [ ] If photo evidence is required, the task cannot be marked as completed until the evidence has been uploaded.
+- [ ] The uploaded photo is associated with the corresponding task.
+- [ ] Photo evidence is visible only to the landlord.
 
 ### Create task reminders
 
-- Mandatory tasks automatically generate reminders for the assigned tenant.
-- Automatic reminders are sent 24 hours before the task due time.
-- A tenant can create an optional reminder for a non-mandatory task assigned to them.
-- A reminder can only be created for a task that has a due date and time.
-- Reminders are sent only to the tenant assigned to the task.
-- A reminder notifies the tenant about the pending task but does not change the task status.
-- Once the task is completed, pending reminders for that task are cancelled.
+- [ ] Mandatory tasks automatically generate reminders for the assigned tenant.
+- [ ] Automatic reminders are sent 24 hours before the task due time.
+- [ ] A tenant can create an optional reminder for a non-mandatory task assigned to them.
+- [ ] A reminder can only be created for a task that has a due date and time.
+- [ ] Reminders are sent only to the tenant assigned to the task.
+- [ ] A reminder notifies the tenant about the pending task but does not change the task status.
+- [ ] Once the task is completed, pending reminders for that task are cancelled.
 
 ### Send messages between tenants and landlord
 
-- A tenant can send a private message to the landlord of their flat.
-- The landlord can send a private message to a specific tenant in their flat.
-- A tenant can send a message to the shared flat-landlord conversation.
-- The landlord can send a message to the shared flat-landlord conversation.
-- Messages in the shared conversation are visible to all tenants of the flat and the landlord.
-- Private messages are visible only to the tenant involved and the landlord.
-- Messages are stored and displayed in chronological order.
-- Users cannot access conversations belonging to another flat.
+- [ ] A tenant can send a private message to the landlord of their flat.
+- [ ] The landlord can send a private message to a specific tenant in their flat.
+- [ ] A tenant can send a message to the shared flat-landlord conversation.
+- [ ] The landlord can send a message to the shared flat-landlord conversation.
+- [ ] Messages in the shared conversation are visible to all tenants of the flat and the landlord.
+- [ ] Private messages are visible only to the tenant involved and the landlord.
+- [ ] Messages are stored and displayed in chronological order.
+- [ ] Users cannot access conversations belonging to another flat.
 
 ## Low priority
 
 ### Create social activities
 
-- A user can create a public social activity.
-- A social activity must include at least a title, description, location, date, and time.
-- The activity location must include multiple location keywords, such as city, district, or venue, to support location-based searches.
-- The creator can optionally add a WhatsApp group link to the activity.
-- After creation, the activity is visible to other users of the platform.
-- The creator can edit the information of their own activity.
-- The creator can cancel their own activity.
-- Users cannot edit or cancel activities created by other users.
+- [ ] A user can create a public social activity.
+- [ ] A social activity must include at least a title, description, location, date, and time.
+- [ ] The activity location must include multiple location keywords, such as city, district, or venue, to support location-based searches.
+- [ ] The creator can optionally add a WhatsApp group link to the activity.
+- [ ] After creation, the activity is visible to other users of the platform.
+- [ ] The creator can edit the information of their own activity.
+- [ ] The creator can cancel their own activity.
+- [ ] Users cannot edit or cancel activities created by other users.
 
 ### Join social activities
 
-- A user can view the information of published social activities.
-- A user can join a social activity.
-- When a user joins an activity, the participant counter is updated.
-- A user who has joined an activity can leave it later.
-- When a user leaves an activity, the participant counter is updated.
-- If the activity includes a WhatsApp group link, joined users can access it.
-- A user cannot join the same activity more than once.
+- [ ] A user can view the information of published social activities.
+- [ ] A user can join a social activity.
+- [ ] When a user joins an activity, the participant counter is updated.
+- [ ] A user who has joined an activity can leave it later.
+- [ ] When a user leaves an activity, the participant counter is updated.
+- [ ] If the activity includes a WhatsApp group link, joined users can access it.
+- [ ] A user cannot join the same activity more than once.
 
 ### Activity location filters
 
-- A user can search social activities by entering a location keyword.
-- Activities whose location contains the searched keyword are displayed.
-- The location search is not case-sensitive.
-- If no activities match the searched location, the system displays an empty result.
+- [ ] A user can search social activities by entering a location keyword.
+- [ ] Activities whose location contains the searched keyword are displayed.
+- [ ] The location search is not case-sensitive.
+- [ ] If no activities match the searched location, the system displays an empty result.
